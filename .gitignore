@@ -1,0 +1,117 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+.python-version
+
+# Byte-compiled / caches
+.pytest_cache/
+.pyre/
+.mypy_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# Logs
+*.log
+
+# SQLite / local DBs
+*.sqlite3
+*.db
+*.db-journal
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/**/secrets.toml
+# Local Streamlit cache (optional to ignore; speeds up repo cleanliness)
+.streamlit/cache/
+.streamlit/cache/**
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_conv/
+*.nbconvert.ipynb
+
+# =========================
+# IDE / Editors
+# =========================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Data / artifacts (optional - uncomment if applicable)
+# =========================
+# data/
+# data/raw/
+# data/interim/
+# data/processed/
+# outputs/
+# models/
+# checkpoints/
+# *.parquet
+# *.feather
+# *.h5
+# *.hdf5
+# *.joblib
+# *.pkl
+# *.sav
+# *.pt
+# *.onnx
+# *.csv
+# *.tsv
+
+# =========================
+# Security
+# =========================
+# Prevent accidental commits of env/config/secrets
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.jks
+# If you store API keys in .env (some projects do)
+.env.*
